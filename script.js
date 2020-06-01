@@ -91,7 +91,7 @@ function parse(s, indent,metadata) {
     } else {
         write(indent + 'type: \"' + (typeof s) + '\"');
         write(indent + 'example:' + ' '+'\"'+(s)+'\"' );
-	write(indent + 'maxLength:' + ' '+metadata[0].get(key)+' );
+	write(indent + 'maxLength:'+'+metadata[0].get(s)+' );
         write(indent + 'description:'+' '+'\""')
     }
 }
